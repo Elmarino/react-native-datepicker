@@ -6,13 +6,15 @@ import {
   Image,
   Modal,
   TouchableHighlight,
-  DatePickerAndroid,
-  TimePickerAndroid,
-  DatePickerIOS,
   Platform,
   Animated,
   Keyboard
 } from 'react-native';
+import {
+  TimePickerAndroid, 
+  DatePickerAndroid, 
+  DatePickerIOS
+} from '@react-native-community/datetimepicker'
 import Style from './style';
 import Moment from 'moment';
 
